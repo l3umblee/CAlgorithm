@@ -39,7 +39,6 @@ bool queens(int level)
 
 int main(void)
 {
-    int i;
     printf("scale : ");
     scanf("%d", &N);
     col = (int*)malloc(sizeof(int)*(N+1));

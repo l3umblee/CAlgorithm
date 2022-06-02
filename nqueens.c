@@ -1,6 +1,6 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <Math.h>
+#include <math.h>
 #include <stdbool.h>
 int N;
 int *col;

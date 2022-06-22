@@ -1,6 +1,5 @@
 #include <stdio.h>
 #include <stdlib.h>
-#include <string.h>
 int N, pnum = 1;
 typedef struct bnode {
     struct bnode *parent;

@@ -17,7 +17,7 @@ int weight[MAX_VERTICES][MAX_VERTICES] = {
     {INF, 3, 2, 2, 1, 5, 0, INF, 5, INF}, // 7번째 행
     {INF, INF, INF, INF, INF, 4, INF, 0, 3, INF}, // 8번째 행
     {INF, INF, INF, INF, INF, INF, 5, 3, 0, INF}, // 9번째 행
-    {INF, 2, INF, INF, INF, INF, INF, INF, 1, INF}, // 10번째 행 -> 여기서 2번째 인덱스와 9번째 인덱스는 계단에 해당
+    {INF, 2, INF, INF, INF, INF, INF, INF, 0, INF}, // 10번째 행 -> 여기서 2번째 인덱스와 9번째 인덱스는 계단에 해당
 };
 int distance[MAX_VERTICES];
 int S[MAX_VERTICES];
